@@ -1,0 +1,32 @@
+# ---- 运行时数据：绝不外传 ----
+licenses.db
+licenses.db-journal
+licenses.db-wal
+SECRET.txt
+backups/
+*.lic
+
+# ---- 客户交付物：要发给客户就单独发，别放进仓库 ----
+*.ex5
+*.ex4
+*.set
+
+# ---- 编译 / 回测产物 ----
+_compile.log
+_tester.ini
+*_compile.log
+lic_tester_report*
+Tester/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+
+# ---- 日志 ----
+*.log
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
