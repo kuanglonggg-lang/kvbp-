@@ -1,0 +1,10 @@
+{
+  "url": "http://your.host:8787",
+  "secret": "CHANGE_ME_please_run_server_with_same_secret",
+  "product": "JinJi51",
+  "key": "XXXX-XXXX-XXXX-XXXX",
+  "terminal_exe": "",
+  "heartbeat_min": 10,
+  "grace_min": 30,
+  "on_revoke": "close"
+}
